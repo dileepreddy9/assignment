@@ -1,6 +1,9 @@
-package StepDefinitions;
 
+
+import org.junit.*;
 import org.junit.runner.RunWith;
+
+
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
@@ -13,5 +16,15 @@ monochrome=true, plugin = {
 		"junit:target/JUnitReports/report.xml"
 }, dryRun = false)
 public class TestRunner {
+	@Before
+	public void setUp() {
+		
 
+		
+	}
+
+	@After
+	public void tearDown() {
+		
+	}
 }

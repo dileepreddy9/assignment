@@ -85,6 +85,7 @@ public class registration {
 	
 	@When("user provides valid details")
 	public void enter_details() throws InterruptedException {
+		
 		driver.findElement(By.id("customer_firstname")).sendKeys("etemp");
 		driver.findElement(By.id("customer_lastname")).sendKeys("user");
 		driver.findElement(By.id("passwd")).sendKeys("password1");
