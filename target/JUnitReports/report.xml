@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.121">
+    <testcase classname="registration" name="Validate signin functionality" time="0.041">
+        <failure message="The scenario has no steps" type="java.lang.Exception"/>
+    </testcase>
+</testsuite>
